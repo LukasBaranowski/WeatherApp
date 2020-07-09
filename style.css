@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to left bottom, #d2e51b, #a0e953, #70e97e, #3ee5a3, #00dfc1, #00d4cd, #00c7d3, #00bad4, #00a6cb, #0093c0, #007fb3, #196ca3);
+    font-family: sans-serif;
+    color: #fff;
+}
+.location {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+.degree-section h2 {
+    font-size: 40px;
+}
+@media (max-width: 960px) {
+    .location h1 {
+        font-size: 30px;
+    }
+}
